@@ -1,0 +1,82 @@
+body{
+    font-family: Arial;/*words niluvuga vasthay*/
+    display: flex;/*words addanga vasthay*/
+    /* flex-direction: column;/*words niluvuga vasthay */
+    align-items: center;/* top center */
+    justify-content: center;/*left vasthadi*/
+    height: 100vh;/*middle centre*/
+    margin: 0;/*scroll pothundi+ center vasthadi*/
+}
+
+.container{
+  display: flex;/*addanga vasthundi*/
+   width: 90vw;/*left */
+   justify-content: center;/*center*/
+   }
+
+.panel{
+    background-size: auto 100%;/*1text 2 pic vasthay*/
+    background-repeat: no-repeat;/*bg 1 pic matrame vasthadi*/
+  background-position: center;
+  height: 80vh;/*box podugga*/
+  border-radius: 50px;/*box border curve shape*/
+  margin: 10px;/*madyalo gap*/
+  flex: 0.5;/*image peddaga chinnaga unna kuda anni same vasthay*/
+  position: relative;
+  cursor: pointer;/*hand symble*/
+  transition: flex 0.7s ease-in;
+}
+.panel h3{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 1.2vw;
+  opacity: 0;
+transition: opacity 0.6s ease-in-out;
+
+}
+.panel.active {
+  flex: 5;/*pic expand*/
+
+}
+.panel.active h3{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
